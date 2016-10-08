@@ -43,7 +43,7 @@ Definición de variables:
  
 > **ws** = '*Ruta absoluta del WebService de Itris Software.*';
 
-> **bd** = '*Nombre de la base de datos de Itris Software.*';
+> **base** = '*Nombre de la base de datos de Itris Software.*';
 
 > **user** = 'Usuario de la aplicación Itris';
 
@@ -51,7 +51,7 @@ Definición de variables:
 
 
 Ejemplo de testing de conexión de ingreso manual:
-> http://itris.no-ip.com:85/app/pos/itslogin.php?ws=http://itris.no-ip.com:85/ItsWs/ItsCliSvrWS.asmx?WSDL&bd=LM_10_09_14&user=administrador&pass=12348
+> http://itris.no-ip.com:85/app/pos/itslogin.php?ws=http://itris.no-ip.com:85/ItsWs/ItsCliSvrWS.asmx?WSDL&base=LM_10_09_14&user=administrador&pass=12348
 
 Resultado
 
