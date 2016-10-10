@@ -2,7 +2,7 @@
 Es una interfaz para obtener datos de una base de datos usando la arquitectura nativa de Itris Software. 
 Las siguientes funcionalidades son utilizadas por la aplicación "com.pedidositrisv2.app" ver la ficha del producto.
 https://play.google.com/store/apps/details?id=com.pedidositrisv2.app&hl=es
-Todos los resultados darán por resultado texto en formato JSON.
+Todas las respuestas darán por resultado texto en formato JSON.
 
 
 ----------
