@@ -10,7 +10,7 @@ Todas las respuestas darán por resultado texto en formato JSON.
 **CONEXIÓN**
 Con este servicio verificamos si la URL del WebService de la aplicación está on line o no.  Recibe una sola variable.
 Esta URL se ejecuta cuando en la app se presiona el botón (Configuración->Conexión).
-![enter image description here](http://pos.itris.com.ar/img/botonesdered.png)
+![enter image description here](http://pos.itris.com.ar/bak-02-17/img/botonesdered.png)
 
 > Ingresa en tu navegador con la variable y valor deseado: 
 > http://itris.no-ip.com:85/app/pos/itstestws.php
@@ -36,7 +36,7 @@ El sistema realizará un test usando la página (http://www.itris.com.ar).
 **LOGIN**
 Con este servicio la app prueba los datos de login al WebService de Itris Software.
 Ingresa en tu navegador y la variable y valor deseado: 
-![enter image description here](http://pos.itris.com.ar/img/botonesdered.png)
+![enter image description here](http://pos.itris.com.ar/bak-02-17/img/botonesdered.png)
 
 > http://itris.no-ip.com:85/app/pos/itslogin.php
 
@@ -84,7 +84,7 @@ El resultado será el siguiente:
 
 **DESCARGAR CLIENTES**
 Con esta funcionalidad la aplicación obtiene los clientes de la base de datos pasada por parámetros. Recibe cuatro variable.
-![enter image description here](http://pos.itris.com.ar/img/downclientes.png)
+![enter image description here](http://pos.itris.com.ar/bak-02-17/img/downclientes.png)
 
 > http://itris.no-ip.com:85/app/pos/downloadclient.php
 
@@ -157,7 +157,7 @@ El resultado será el siguiente:
 
 **PRECIOS DE VENTAS Y STOCK**
 Este proceso permite recuperar los precios y stock.
-![enter image description here](http://pos.itris.com.ar/img/downprecios.png)
+![enter image description here](http://pos.itris.com.ar/bak-02-17/img/downprecios.png)
 > http://itris.no-ip.com:85/app/pos/erp_pre_ven.php
 
 Definición de variables:
@@ -220,7 +220,7 @@ Existe dos formas de enviar información a Itris y otra para enviar los datos gu
 **ItsSync**
 La primera opción de envío es ItsSync.php, la misma permite el ingreso de datos en Itris ***únicamente un solo registro por vez***:
 
-![enter image description here](http://pos.itris.com.ar/img/itssync.png)
+![enter image description here](http://pos.itris.com.ar/bak-02-17/img/itssync.png)
 
 > http://itris.no-ip.com:85/app/pos/itssync.php
 
@@ -263,7 +263,7 @@ También devuelve el número de ID de la tabla original de la APP:
 **ItsSyncAll**
 La segunda opción de envío es ItsSyncAll.php, la misma permite el ingreso de datos en Itris ***de manera masiva***:
 
-![enter image description here](http://pos.itris.com.ar/img/itssyncall.png)
+![enter image description here](http://pos.itris.com.ar/bak-02-17/img/itssyncall.png)
 
 Al presionar este botón se ejecuta la siguiente lógica 
 
@@ -314,7 +314,7 @@ Para los casos de inserción exitosa el resultado será el siguiente:
 **ItsSyncAllMail**
 La tercer opción de envío es ItsSyncAllMail.php, la misma permite enviar a la APP un mail con todos los datos guardados:
 
-![enter image description here](http://pos.itris.com.ar/img/itssyncallMail.png)
+![enter image description here](http://pos.itris.com.ar/bak-02-17/img/itssyncallMail.png)
 
 Al presionar este botón en la APP lo que hace es armar un JSON con toda la información guardada en el dispositivo y enviar vía mail.
 El array que envía tiene el siguiente formato:
